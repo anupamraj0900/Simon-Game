@@ -1,6 +1,9 @@
 # Simon-Game
 Simon Game is a simple yet challenging memory game where players must remember and repeat an increasingly long sequence of colors. The game was inspired by the classic electronic game Simon.
 
+## View the project here - 
+https://simon-game-mu-pied.vercel.app/
+
 ## How to Play
 
 1. Press any key to start the game.
