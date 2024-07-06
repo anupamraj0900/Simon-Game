@@ -9,7 +9,7 @@ var level = 0;  // Variable to track the current level
 $("#level-title").text("Press A Key to Start");
 
 // Detect keypress event
-$(document).keypress(function() {
+$(document).on("keypress touchstart", function()  {
   if (!started) {
     $("#level-title").text("Level " + level);  // Update the game level title to Level 0 when game starts
     nextSequence();
